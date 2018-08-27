@@ -9,7 +9,7 @@ def line(katz_deli)
       the_line += "#{counter}. #{name} "
       counter += 1
     end 
-    puts message
+    puts the_line
   end
 end
 
