@@ -6,7 +6,7 @@ def line(katz_deli)
     counter = 1
     the_line = "The line is currently: "
     katz_deli.each do |name|
-      the_line += "#{counter}. #{name} "
+      the_line += "#{counter}. #{name}"
       counter += 1
     end 
     puts the_line
