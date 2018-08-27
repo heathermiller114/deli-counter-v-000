@@ -4,11 +4,12 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     counter = 1
-    print "The line is currently: "
+    message = "The line is currently: "
     katz_deli.each do |name|
-      print "#{counter}. #{name} "
+      message += "#{counter}. #{name} "
       counter += 1
     end 
+    puts message
   end
 end
 
